@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+  }
+  
+  h1 {
+    margin: 20px 0;
+  }
+  
+  .toolbar {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    justify-content: center; /* Align items to the center of the toolbar */
+    flex-wrap: wrap; /* Allow toolbar elements to wrap on smaller screens */
+  }
+  
+  canvas {
+    border: 2px solid #000;
+    cursor: crosshair;
+    margin-top: 20px; /* Space between toolbar and canvas */
+  }
+  
+  #brushSize {
+    width: 100px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  label[for="uploadImage"] {
+    background-color: #7bdf70;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="range"] {
+    width: 100px;
+  }
+  
